@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hello_world_app/presentation/screens/counter/counter_funtions_screen.dart';
 import 'package:hello_world_app/presentation/screens/counter/counter_screen.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
       ),
       title: 'Hello World App',
-      home: CounterScreen(),
+      home: CounterFunctionsScreen(),
     );
   }
 
